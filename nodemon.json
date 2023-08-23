@@ -1,0 +1,10 @@
+{
+    "delay": 100,
+    "ext": "ts,tsx,yml,json,js,jsx",
+    "exec": "ts-node-esm",
+    "quiet": true,
+    "events": {
+        "restart": "echo ---------- RESTARTING ----------"
+    },
+    "watch": ["src/**/*.ts"]
+}
