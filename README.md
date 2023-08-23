@@ -4,13 +4,10 @@
 
 Build a UI that displays the **top 10 stories of hackernews**, and **intersperse sponsored messages every 3 stories**.
 
-- Get the stories via the backend (`http://localhost:3000`) so we can
-  arbitrarily add stories in-between.
 - Make use of the public [hackernews API](https://github.com/HackerNews/API).
 - You can find the entry point into the frontend in `src/frontend/App.tsx`, and
   into the backend in `src/backend/server.ts`.
-- Use the fake `SponsoredService` in `src/backend/sponsored.service.ts` to get
-  the sponsored messages.
+- Get the sponsored messages from the backend API at `http://localhost:3000`.
 
 ## Some Tips
 
