@@ -44,9 +44,11 @@ npm run dev:backend
 
 **Ignore this until you have solved Part 1.**
 
-Intersperse sponsored stories every 3 stories, using the `withAds` function from `src/frontend/advertisement.ts`.
+Intersperse sponsored stories every 3 stories.
 
-It should look like:
+Apparently, someone already implemented a function for this in `src/frontend/advertisement.ts`, but you may have to fix one or two things.
+
+The final order should look like:
 
 ```
 story
@@ -54,5 +56,8 @@ story
 story
 ad
 story
+story
+story
+ad
 ... etc
 ```
