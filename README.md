@@ -4,9 +4,10 @@
 
 Build a quick POC that displays the **top 10 stories of hackernews**.
 
-- Make use of the public [hackernews API](https://github.com/HackerNews/API),
-  specifically, you can use the [topstories endpoint](https://hacker-news.firebaseio.com/v0/topstories.json?print=pretty).
-- You can find the entry point into the frontend in `src/frontend/App.tsx`.
+- Make use of the public [hackernews API](https://github.com/HackerNews/API).
+    - Use the [topstories endpoint](https://hacker-news.firebaseio.com/v0/topstories.json) to get story IDs.
+    - Resolve IDs via the [item endpoint](https://hacker-news.firebaseio.com/v0/item/{id}.json).
+- You can find the entry point into the frontend in [src/frontend/App.tsx](./src/frontend/App.tsx).
 
 ## Some Tips
 
@@ -44,11 +45,11 @@ npm run dev:backend
 
 **Ignore this until you have solved Part 1.**
 
-Intersperse sponsored stories every 3 stories.
+Intersperse ads every 3 stories.
 
-Apparently, someone already implemented a function for this in `src/frontend/advertisement.ts`, but you may have to fix one or two things.
-
-The final order should look like:
+- Apparently, someone already implemented a function for this in [src/frontend/advertisement.ts](./src/frontend/advertisement.ts), but you may have to fix one or two things.
+- You will have to start the backend in a separate terminal.
+- The final story order should look like:
 
 ```
 story
