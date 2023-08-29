@@ -1,13 +1,12 @@
 # E-Farm Fullstack Challenge
 
-## The Challenge
+## The Challenge: Part 1
 
-Build a UI that displays the **top 10 stories of hackernews**, and **intersperse sponsored messages every 3 stories**.
+Build a UI that displays the **top 10 stories of hackernews**.
 
-- Make use of the public [hackernews API](https://github.com/HackerNews/API).
-- You can find the entry point into the frontend in `src/frontend/App.tsx`, and
-  into the backend in `src/backend/server.ts`.
-- Get the sponsored messages from the backend API at `http://localhost:3000`.
+- Make use of the public [hackernews API](https://github.com/HackerNews/API),
+  specifically, you can use the [topstories endpoint](https://hacker-news.firebaseio.com/v0/topstories.json?print=pretty).
+- You can find the entry point into the frontend in `src/frontend/App.tsx`.
 
 ## Some Tips
 
@@ -32,8 +31,20 @@ Start the frontend in dev mode.
 npm run dev:frontend
 ```
 
-Start the backend in dev mode.
+## The Challenge: Part 2 (Optional)
 
-```bash
-npm run dev:backend
+**Ignore this until you have solved Part 1.**
+
+Intersperse sponsored stories every 3 stories. It should look like:
+
 ```
+story
+story
+story
+ad
+story
+... etc
+```
+
+- Start the backend via `npm run dev:backend` in a separate terminal.
+- Use the `withAds` function from `src/frontend/advertisement.ts`.
