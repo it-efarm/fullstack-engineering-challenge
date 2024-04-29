@@ -1,25 +1,22 @@
 # E-Farm Fullstack Challenge
 
-## The Challenge: Part 1
+## Part 1: Display Top 10 HackerNews Stories
 
-Build a quick POC that displays the **top 10 stories of hackernews**.
+Create a simple app that shows the top 10 stories from HackerNews.
 
-- Make use of the public [hackernews API](https://github.com/HackerNews/API).
-    - Use the [topstories endpoint](https://hacker-news.firebaseio.com/v0/topstories.json) to get story IDs.
-    - Resolve IDs via the [item endpoint](https://hacker-news.firebaseio.com/v0/item/{id}.json).
-- You can find the entry point into the frontend in [src/frontend/App.tsx](./src/frontend/App.tsx).
+### Steps:
 
-## Some Tips
+- **Use these HackerNews API endpoints:**
+  - **Fetch Story IDs:** `https://hacker-news.firebaseio.com/v0/topstories.json`
+  - **Fetch Story Details:** `https://hacker-news.firebaseio.com/v0/item/${id}.json`
+- Start building the frontend in [src/frontend/App.tsx](./src/frontend/App.tsx).
 
-- **Keep it simple**. Focus on solving the challenge before making your code
-  beautiful or fast. Time flies fast.
-- **Talk us through your thought process**. This helps us understand your
-  approach, and catch problems before you spend time on implementation.
-- **It's OK if some things are not intuitive**. You can, of course, look things up, but
-  before you rush to google, let's first see if we can solve the problem together.
-- **Use libraries and tools that you know and make you fast**. You don't have
-  to write things from scratch. If you know a good library to solve a problem,
-  use it!
+### Tips:
+
+- **Start simple**: Make it work, then make it nice.
+- **Talk about your work**: Explain what you're doing to help us understand your choices.
+- **Look up as needed**: It's okay to search online if you're stuck, but try to figure things out with the team first.
+- **Use tools you know**: Use libraries that save you time. Don't start from scratch.
 
 ## Quickstart
 
@@ -41,7 +38,7 @@ Start the backend in dev mode. (Only for Part 2).
 npm run dev:backend
 ```
 
-## The Challenge: Part 2 (Optional)
+## Part 2 (Optional)
 
 **Ignore this until you have solved Part 1.**
 
