@@ -1,8 +1,8 @@
 # E-Farm Fullstack Challenge
 
-## Part 1: Display Top 10 HackerNews Stories
+## Part 1
 
-Create a simple app that shows the top 10 stories from HackerNews.
+Create a simple app that shows the **top 10 stories from HackerNews**.
 
 ### Steps:
 
