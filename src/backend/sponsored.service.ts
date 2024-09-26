@@ -20,7 +20,7 @@ const _sponsoredItems: SponsoredItem[] =
 
 
 export const SponsoredService = {
-    async getSponsoredItems(): Promise<SponsoredItem[]> {
+    getSponsoredItems(): Promise<SponsoredItem[]> {
         return Promise.resolve(_sponsoredItems)
     }
 }
